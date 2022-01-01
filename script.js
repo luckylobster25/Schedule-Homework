@@ -67,32 +67,32 @@ if (moment().format("h") == document.getElementById("slot-four").name.slice(0,2)
 // some of the comparison sign are being switch around to match its purpose. 
 if (moment().format("h") == document.getElementById("slot-five").name[0] && moment().format("A") == document.getElementById("slot-five").name.slice(1, 3)) {
     (document.getElementById("slot-five").setAttribute("class", "present"))
-} else if (moment().format("h") > "1" && moment().format("A") != document.getElementById("slot-five").name.slice(1, 3)) {
-    (document.getElementById("slot-five").setAttribute("class", "future"))
-} else {
+} else if (moment().format("h") > "1" && moment().format("A") == document.getElementById("slot-five").name.slice(1, 3)) {
     (document.getElementById("slot-five").setAttribute("class", "past"))
+} else {
+    (document.getElementById("slot-five").setAttribute("class", "future"))
 }
 
 if (moment().format("h") == document.getElementById("slot-six").name[0] && moment().format("A") == document.getElementById("slot-six").name.slice(1, 3)) {
     (document.getElementById("slot-six").setAttribute("class", "present"))
-} else if (moment().format("h") > "2" && moment().format("A") != document.getElementById("slot-six").name.slice(1, 3)) {
-    (document.getElementById("slot-six").setAttribute("class", "future"))
-} else {
+} else if (moment().format("h") > "2" && moment().format("A") == document.getElementById("slot-six").name.slice(1, 3)) {
     (document.getElementById("slot-six").setAttribute("class", "past"))
+} else {
+    (document.getElementById("slot-six").setAttribute("class", "future"))
 }
 if (moment().format("h") == document.getElementById("slot-seven").name[0] && moment().format("A") == document.getElementById("slot-seven").name.slice(1, 3)) {
     (document.getElementById("slot-seven").setAttribute("class", "present"))
-} else if (moment().format("h") > "3" && moment().format("A") != document.getElementById("slot-seven").name.slice(1, 3)) {
-    (document.getElementById("slot-seven").setAttribute("class", "future"))
-} else {
+} else if (moment().format("h") > "3" && moment().format("A") == document.getElementById("slot-seven").name.slice(1, 3)) {
     (document.getElementById("slot-seven").setAttribute("class", "past"))
+} else {
+    (document.getElementById("slot-seven").setAttribute("class", "future"))
 }
 
 if (moment().format("h") == document.getElementById("slot-eight").name[0] && moment().format("A") == document.getElementById("slot-eight").name.slice(1, 3)) {
     (document.getElementById("slot-eight").setAttribute("class", "present"))
-} else if (moment().format("h") > "4" && moment().format("A") != document.getElementById("slot-eight").name.slice(1, 3)) {
-    (document.getElementById("slot-eight").setAttribute("class", "future"))
-} else {
+} else if (moment().format("h") > "4" && moment().format("A") == document.getElementById("slot-eight").name.slice(1, 3)) {
     (document.getElementById("slot-eight").setAttribute("class", "past"))
+} else {
+    (document.getElementById("slot-eight").setAttribute("class", "future"))
 }
 // most of these code are copy and paste with some adjustment to make it work properly. 
