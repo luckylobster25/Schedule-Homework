@@ -20,6 +20,7 @@ var saveData5 = localStorage.getItem("1PM")
 var saveData6 = localStorage.getItem("2PM")
 var saveData7 = localStorage.getItem("3PM")
 var saveData8 = localStorage.getItem("4PM")
+
 $("#slot-one").text(saveData1)
 $("#slot-two").text(saveData2)
 $("#slot-three").text(saveData3)
@@ -91,3 +92,4 @@ if (moment().format("h") == document.getElementById("slot-eight").name[0] && mom
 } else {
     (document.getElementById("slot-eight").setAttribute("class", "past"))
 }
+
