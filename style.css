@@ -83,3 +83,18 @@ label {
 button {
   width: 40px;
 }
+@media screen and (max-width: 1000px) {
+  label {
+    width: 65px;
+  }
+  button {
+    width: 35px;
+  }
+  .row {
+    height: 70px;
+  }
+  textarea {
+    width: 80%;
+  }
+}
+/* added code to help adjust when screen is smaller than 1000px */
